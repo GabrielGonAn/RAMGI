@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RAMGI</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="img/logo.jpg" alt="Logo de RAMGI" class="logo">
+        <p>Protección que alcanza cada rincón</p>
+    </header>    
+  
+  <nav>
+    <a href="#about">Acerca de</a>
+    <a href="#services">Servicios</a>
+    <a href="#portfolio">Portfolio</a>
+    <a href="#contact">Contacto</a>
+  </nav>
+
+  <div class="section" id="blog">
+    <h2>Blog</h2>
+    <p>Explora nuestros artículos sobre videovigilancia y más.</p>
+    <div id="blog-posts"></div>
+ </div>
+ 
+  
+  <div class="section" id="about">
+    <h2>Acerca de RAMGI</h2>
+    <p>RAMGI es un proveedor líder de sistemas de videovigilancia. Nos especializamos en la instalación de cámaras IP y brindamos soluciones integrales para empresas de todos los tamaños.</p>
+    <h3>Visión</h3>
+    <p>Ser líderes en el desarrollo de soluciones de software innovadoras y personalizadas para PYMES.</p>
+    <h3>Misión</h3>
+    <p>Brindar herramientas tecnológicas accesibles y efectivas que permitan a las PYMES optimizar la gestión de sus ventas e inventarios.</p>
+  </div>
+  
+  <div class="section" id="services">
+    <h2>NUESTROS SERVICIOS</h2>
+    <ul>
+      <li>Instalación de cámaras IP</li>
+      <li>Integración de VMS</li>
+      <li>Soluciones de vigilancia personalizadas</li>
+      <li>Mantenimiento y soporte continuos</li>
+    </ul>
+  </div>
+  
+  <div class="section" id="portfolio">
+    <h2>Nuestro Portafolio</h2>
+    <div id="portfolio-items"></div>
+  </div>
+  
+  <div class="section" id="contact">
+    <h2>Contacto</h2>
+    <form>
+      <li><span>Fecha de inicio</span> : 10/10/2024</li>
+                    <li><span>Email</span> : ramgivigilancia@gmail.com</li>
+                    <li><span>Phone</span> : + (52) 725 456 7414</li>
+                    <li><span>Linkedl</span> : Ramgi_VV</li>
+                    <li><span>Direccion</span> :  San Felipe Del Progreso</li>
+      <hr>
+      
+    </form>
+    <button type="submit">Enviar Mensaje</button>
+  </div>
+
+  <div class="section" id="quote">
+    <h2>Solicita una Cotización</h2>
+    <form action="send-quote.php" method="POST">
+       <label for="name">Nombre:</label>
+       <input type="text" id="name" name="name" required>
+       <label for="email">Correo Electrónico:</label>
+       <input type="email" id="email" name="email" required>
+       <label for="project-details">Detalles del Proyecto:</label>
+       <textarea id="project-details" name="project-details"></textarea>
+       <button type="submit">Enviar Cotización</button>
+    </form>
+ </div>
+ <div class="section" id="faq">
+  <h2>Preguntas Frecuentes <h3>(Haz click en la deseada)</h3></h2>
+
+  <details>
+     <summary>¿Qué servicios adicionales ofrecen además de la instalación de cámaras?</summary>
+     <p>Ofrecemos mantenimiento y soporte continuo, integración de VMS (Video Management Systems) y personalización de sistemas de vigilancia según las necesidades del cliente.</p>
+  </details>
+
+  <details>
+     <summary>¿Cómo funciona la detección de movimiento en sus cámaras?</summary>
+     <p>Nuestras cámaras IP incluyen tecnología de detección de movimiento que activa grabaciones y notificaciones automáticas cuando se detecta actividad en el área monitoreada.</p>
+  </details>
+
+  <details>
+     <summary>¿Puedo recibir alertas de seguridad en tiempo real?</summary>
+     <p>Sí, nuestro sistema permite configurar alertas de seguridad que se envían en tiempo real a su dispositivo móvil o correo electrónico.</p>
+  </details>
+
+  <details>
+     <summary>¿Cuál es el proceso de instalación de las cámaras?</summary>
+     <p>El proceso incluye una visita de inspección, asesoría sobre la ubicación de las cámaras, instalación y pruebas del sistema, seguido de una capacitación básica para su uso.</p>
+  </details>
+
+  <details>
+     <summary>¿Ofrecen opciones de almacenamiento en la nube para las grabaciones?</summary>
+     <p>Sí, ofrecemos almacenamiento en la nube para que pueda acceder a las grabaciones desde cualquier lugar y de forma segura. Contáctenos para conocer los planes disponibles.</p>
+  </details>
+
+  <details>
+     <summary>¿Las cámaras funcionan en condiciones de baja iluminación?</summary>
+     <p>Sí, nuestras cámaras IP cuentan con visión nocturna para funcionar eficazmente en condiciones de baja iluminación.</p>
+  </details>
+
+  <details>
+     <summary>¿Es posible integrar el sistema de cámaras con otros sistemas de seguridad?</summary>
+     <p>Sí, nuestras soluciones pueden integrarse con otros sistemas de seguridad, como alarmas o controles de acceso, para ofrecer una protección completa.</p>
+  </details>
+
+  <details>
+     <summary>¿Cuál es el tiempo estimado para la instalación de un sistema de videovigilancia?</summary>
+     <p>El tiempo de instalación depende del tamaño del proyecto. Para instalaciones pequeñas, el tiempo puede ser de 1 a 2 días, mientras que proyectos más grandes pueden tomar varios días.</p>
+  </details>
+
+  <details>
+     <summary>¿Qué tipo de mantenimiento requieren las cámaras de videovigilancia?</summary>
+     <p>Recomendamos mantenimiento preventivo cada seis meses para verificar el funcionamiento adecuado de las cámaras y el sistema de grabación.</p>
+  </details>
+
+  <details>
+     <summary>¿Cómo puedo solicitar una cotización para mi negocio?</summary>
+     <p>Puede solicitar una cotización llenando el formulario en nuestra página o contactándonos directamente a través de nuestro correo electrónico o teléfono.</p>
+  </details>
+
+</div>
+
+
+
+  <div class="section" id="testimonials">
+    <h2>Testimonios</h2>
+    <p>Lo que dicen nuestros clientes:</p>
+    <div class="testimonial-item">
+       <p>"El servicio transformó la seguridad de nuestra empresa. Su sistema de cámaras es excelente."</p>
+       <span>- Empresa XYZ</span>
+    </div>
+ </div>
+ 
+  
+  <footer>
+    <p>&copy; 2024 RAMGI. Todos los derechos reservados.</p>
+  </footer>
+ 
+  <script src="script.js"></script>
+</body>
+</html>
